@@ -1,0 +1,27 @@
+.home {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
+.text p {
+  font-size: 25px;
+  color: #e6e9ed;
+}
+
+@media (max-width: 576px) {
+  .home {
+    background-position: 68% 0;
+  }
+  .header h1 {
+    font-size: 70px;
+  }
+}

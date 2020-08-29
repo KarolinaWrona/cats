@@ -1,0 +1,37 @@
+.cat {
+    background-color: #f0f3f7;
+    padding-top: 56px;
+}
+
+.cat .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.cat .cat_desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cat .cat_img {
+    height: 100%;
+    background-size: cover;
+    background-position: 35% 50%;
+}
+
+.cat .cat_name {
+    font-size: 50px;
+}
+
+@media (max-width:576px) {
+    .cat .cat_name{
+        font-size: 32px;
+        margin: 20px 0 10px ;
+    }
+    .cat .cat_img{
+        background-position: 40% 50%;
+    }
+}
